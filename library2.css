@@ -1,0 +1,43 @@
+.root{
+    -fx-background-color: #ffffff;
+}
+
+.label{
+    -fx-text-fill: #48b2ba;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-font-size: 30px;
+    -fx-animated: true;
+
+}
+.button{
+    -fx-background-color:
+            linear-gradient(#99f0f5, #48b2ba),
+            radial-gradient(center 50% -40%,radius 200%, #99f0f5 45%,#48b2ba  50%);
+
+    -fx-text-fill:white;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.4), 5, 0.0, 0, 1);
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+}
+.text-field {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-font-size: 20px;
+    -fx-prompt-text-fill:white;
+}
+.button:hover{
+    -fx-background-color:#99f0f5,
+    radial-gradient(center 50% -40%,radius 200%, #99f0f5 45%,#48b2ba  50%);
+    -fx-text-fill:white;
+    -fx-font-scale: 2;
+}
+.button:pressed{
+
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
